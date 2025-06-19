@@ -24,12 +24,12 @@ export const FooterSection = () => {
             <Link href="/" className="flex font-bold items-center">
               <Image
                 src="/Logo.png" // Ensure the logo path is correct
-                alt="Hummingbird Musikk Logo"
+                alt="2day Writers Logo"
                 width={180}
                 height={180}
                 className="w-[22%] h-[22%] lg:w-[16%] lg:h-[16%] md:w-[16%] xl:w-[16%]  mr-2"
               />
-              <h4 className="text-[12px] lg:text-xl font-bold">Hummingbird Musikk Limited</h4>
+              <h4 className="text-[12px] lg:text-xl font-bold">2day Writers Limited</h4>
             </Link>
           </div>
 

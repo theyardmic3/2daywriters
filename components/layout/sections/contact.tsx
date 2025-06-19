@@ -95,7 +95,7 @@ export const ContactSection = () => {
               <div className="flex gap-2 items-center">
                 <Building2 className="text-primary" />
                 <p className="font-medium">
-                  Hummingbird Musikk - P.O. Box 342 Westlands, Kenya.
+                  2day Writers - P.O. Box 342 Westlands, Kenya.
                 </p>
               </div>
               <p className="text-muted-foreground pl-6">
