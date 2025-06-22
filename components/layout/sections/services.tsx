@@ -13,23 +13,42 @@ interface ServicesProps {
 const serviceList: ServicesProps[] = [
   {
     icon: "Book",
-    title: "Professional Publishing",
+    title: "Manuscript Feedback",
     description:
-      "Comprehensive publishing services that ensure your vision is fully realized throughout every project.",
+      "Providing thoughtful, structured critiques to help polish your drafts and improve your storytelling.",
   },
   {
-    icon: "Printer",
-    title: "Printing Press",
+    icon: "MessageSquare",
+    title: "Writer Community",
     description:
-      "High-quality, precision-driven printing that brings your work to life, utilizing durable, professional materials that enhance the visual appeal of your content.",
+      "Fostering meaningful connections through genre forums, discussions, and direct messaging.",
   },
   {
-    icon: "Brush",
-    title: "Book Design",
+    icon: "Target",
+    title: "Writing Challenges",
     description:
-      "Expert design services that create visually captivating and engaging book layouts, covers, and illustrations tailored to meet your specific needs and target audience.",
+      "Keeping you motivated with regular prompts, word goals, and themed contests.",
+  },
+  {
+    icon: "Lightbulb",
+    title: "Learning Resources",
+    description:
+      "Sharing expert insights, curated guides, and writing exercises to boost your craft.",
+  },
+  {
+    icon: "Calendar",
+    title: "Live Events",
+    description:
+      "Hosting workshops, Q&As, and virtual meetups to grow your skills and network.",
+  },
+  {
+    icon: "User",
+    title: "Author Portfolios",
+    description:
+      "Helping you showcase your work and journey with personalized bios and writing samples.",
   },
 ];
+
 
 export const ServicesSection= () => {
   return (
