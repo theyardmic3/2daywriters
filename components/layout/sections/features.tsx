@@ -10,7 +10,7 @@ enum ProFeature {
   YES = 1,
   NO = 0,
 }
-interface Feature {
+interface FeaturesProps {
   title: string;
   pro: ProFeature;
   description: string;
