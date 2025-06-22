@@ -22,9 +22,9 @@ export const HeroSection = () => {
         <div className="text-center space-y-8">
           <Badge variant="outline" className="text-xs py-2">
             <span className="mr-2 text-xs">
-              <Badge className="text-xs">Professional</Badge>
+              <Badge className="text-xs">Professional Writing</Badge>
             </span>
-            <span className="text-xs">Printing & Publishing Press</span>
+            <span className="text-xs">Books,Articles & Blogs</span>
           </Badge>
 
           {/* Updated heading with reduced font sizes and adjusted widths */}
@@ -38,12 +38,12 @@ export const HeroSection = () => {
           </div>
 
           <p className="max-w-screen-sm mx-auto text-base smallPhone:text-xs mediumPhone:text-sm largePhone:text-base smallTablet:text-lg largeTablet:text-xl laptop:text-2xl desktop:text-3xl desktop:w-full hdr:w-full hdr:text-4xl">
-            {`The Ultimate Publication and Printing Press Company for All Your Book Design and Publishing needs.`}
+            {`The Essential Online Hub for new and experienced Authors to develop and improve their writing craft.`}
           </p>
 
 
           <div className="pt-2 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-            <Link href="/catalog" className="px-7 transition-transform transform hover:scale-105 group/arrow hover:shadow-lg hover:shadow-orange-500/50 py-3 w-full bg-orange-700 text-white text-center ease-in-out rounded-lg shadow-md block sm:w-auto">
+            <Link href="/catalog" className="px-7    transition-transform transform hover:scale-105 group/arrow hover:shadow-lg hover:shadow-orange-500/50 py-3 w-full bg-orange-700 text-white text-center ease-in-out rounded-lg shadow-md block sm:w-auto">
               Explore Our Book Catalog
             </Link>
             <Link href="/about" className="px-7 bg-background ease-in-out text-primary py-3 transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50 w-full border shadow-lg rounded-lg border-orange-700 text-center group/arrow block sm:w-auto">
