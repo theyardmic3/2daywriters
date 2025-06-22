@@ -48,7 +48,7 @@ export const BookCarousel: React.FC = () => {
       <Carousel
         plugins={[autoPlayPlugin]} // Use the autoplay plugin
         className="
-          w-[75%]   mt-32 mb-36 desktop:w-[100%] largeTablet:w-[90%]
+          w-[75%]   mt-32 mb-36 desktop:w-[75%] largeTablet:w-[75%]
         "
         onMouseEnter={autoPlayPlugin.stop}
         opts={{

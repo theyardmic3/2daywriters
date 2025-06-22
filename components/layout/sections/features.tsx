@@ -54,18 +54,22 @@ const featureList: FeaturesProps[] = [
   },
 ];
 
-export const FeaturesSection= () => {
+export const FeaturesSection = () => {
   return (
-   <section id="features" className="container w-[100%] mt-2 py-24 my-6 -mb-32 sm:py-32">
+    <section
+      id="features"
+      className="container w-[100%] mt-2 py-24 my-6 -mb-32 sm:py-32"
+    >
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Features
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-       What Sets Us Apart?
+        What Sets Us Apart?
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-       Develop and Improve Your Writing Craft through consistent practice, insightful feedback, and shared knowledge.
+        Develop and Improve Your Writing Craft through consistent practice,
+        insightful feedback, and shared knowledge.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
@@ -73,7 +77,7 @@ export const FeaturesSection= () => {
         {featureList.map(({ title, description, pro }) => (
           <Card
             key={title}
-            className="bg-muted/60 dark:bg-card h-full relative"
+            className="h-full bg-muted/60 dark:bg-card border border-orange-600 rounded-lg shadow-none transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50 relative"
           >
             <CardHeader>
               <CardTitle>{title}</CardTitle>
