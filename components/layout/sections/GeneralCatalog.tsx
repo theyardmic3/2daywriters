@@ -76,7 +76,7 @@ export const GeneralCatalog = () => {
     <section id="catalog" className="container hdr:w-[100%] w-[100%] py-24 -mt-20  sm:py-32">
       <div className="text-center mb-3">
         <h2 className="text-lg text-primary mb-2 tracking-wider">Catalog</h2>
-        <h2 className="text-3xl md:text-4xl  mt-2 mb-10      font-bold">Explore Our Collection</h2>
+        <h2 className="text-3xl md:text-4xl  mt-2 mb-4  font-bold">Explore Our Collection</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
