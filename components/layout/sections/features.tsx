@@ -17,26 +17,40 @@ interface FeaturesProps {
 }
 const featureList: FeaturesProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Critique & Feedback Hub",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "Social Media Integrations",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
-  },
-  {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+      "Effortlessly upload your drafts and receive inline, structured critiques. Track revisions with version history and earn credits for thoughtful feedback.",
     pro: 1,
+  },
+  {
+    title: "Vibrant Community Forums",
+    description:
+      "Dive into genre-based discussions, ask and answer craft questions, and connect directly via private messages—with full search support.",
+    pro: 0,
+  },
+  {
+    title: "Personal Author Profiles",
+    description:
+      "Build your author identity with bios, publishing interests, portfolio showcases, and social links.",
+    pro: 0,
+  },
+  {
+    title: "Craft Resources & Prompts",
+    description:
+      "Boost your skills with expert blog posts, curated links, and daily writing prompts and exercises.",
+    pro: 0,
+  },
+  {
+    title: "Contests & Challenges",
+    description:
+      "Compete in timed writing contests, track word counts, and stay motivated with community-driven challenges.",
+    pro: 0,
+  },
+  {
+    title: "Workshops & Event Calendar",
+    description:
+      "Discover live workshops, Q&As, and virtual meetups—with RSVP, registration tools, and integrated video links.",
+    pro: 0,
   },
 ];
 
