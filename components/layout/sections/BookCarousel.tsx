@@ -62,15 +62,16 @@ export const BookCarousel: React.FC = () => {
               key={index}
               className="md:basis-1/2 lg:basis-1/3 pl-4"
             >
-              <div className="p-1 flex aspect-rectangle items-center justify-center">
+                <div className="p-1 flex aspect-rectangle items-center justify-center">
                 <Image
                   src={src}
                   alt={`Carousel Image ${index + 1}`}
                   className="object-cover aspect-rectangle w-full rounded-tr-2xl rounded-br-2xl h-full"
                   width={600}
                   height={600}
+                  priority
                 />
-              </div>
+                </div>
             </CarouselItem>
           ))}
         </CarouselContent>
