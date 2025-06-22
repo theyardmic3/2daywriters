@@ -65,7 +65,7 @@ export const FooterSection = () => {
               href="https://github.com/theyardmic"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              Strucker Inc.&copy;
+              Straktek Inc.&copy;
             </Link>
           </h3>
         </section>
@@ -78,7 +78,7 @@ export const FooterSection = () => {
               href="https://linktr.ee/resleentechnative"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              Resleen Tech Native Ltd.&copy;
+              Today Writing.&copy;
             </Link>
           </h3>
         </section>
