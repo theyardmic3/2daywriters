@@ -58,7 +58,7 @@ export const ServicesSection= () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-6">
-        Our Services
+        Here For
       </h2>
 
       <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
