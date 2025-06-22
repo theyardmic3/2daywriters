@@ -27,11 +27,12 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
-  { href: "/workbooks", label: "Workbooks" },
-  { href: "/learners", label: "Learner's Books" },
-  { href: "/catalog", label: "Catalog" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", label: "For You" },
+  { href: "/workbooks", label: "Books" },
+  { href: "/catalog", label: "Resources" },
+  { href: "/catalog", label: "Events" },
+  { href: "/about", label: "Community" },
+  { href: "/contact", label: "Contacts" },
 ];
 
 export const Navbar = () => {
