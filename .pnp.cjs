@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.0.3"],\
           ["@types/react", "npm:19.1.8"],\
           ["@types/react-dom", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:18.3.5"],\
-          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.4.1"],\
+          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.5.0"],\
           ["@vercel/speed-insights", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.1.0"],\
           ["class-variance-authority", "npm:0.7.1"],\
           ["clsx", "npm:2.1.1"],\
@@ -90,7 +90,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.0.3"],\
           ["@types/react", "npm:19.1.8"],\
           ["@types/react-dom", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:18.3.5"],\
-          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.4.1"],\
+          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.5.0"],\
           ["@vercel/speed-insights", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.1.0"],\
           ["class-variance-authority", "npm:0.7.1"],\
           ["clsx", "npm:2.1.1"],\
@@ -1865,17 +1865,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/analytics", [\
-      ["npm:1.4.1", {\
-        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vercel-analytics-npm-1.4.1-3334ada626-10c0.zip/node_modules/@vercel/analytics/",\
+      ["npm:1.5.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vercel-analytics-npm-1.5.0-638aefa6a6-10c0.zip/node_modules/@vercel/analytics/",\
         "packageDependencies": [\
-          ["@vercel/analytics", "npm:1.4.1"]\
+          ["@vercel/analytics", "npm:1.5.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-d306caa891/4/AppData/Local/Yarn/Berry/cache/@vercel-analytics-npm-1.4.1-3334ada626-10c0.zip/node_modules/@vercel/analytics/",\
+      ["virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.5.0", {\
+        "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-035ee417de/4/AppData/Local/Yarn/Berry/cache/@vercel-analytics-npm-1.5.0-638aefa6a6-10c0.zip/node_modules/@vercel/analytics/",\
         "packageDependencies": [\
-          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.4.1"],\
+          ["@vercel/analytics", "virtual:25cc9a52c8d8cd69f2e8bdfa494ac678b249e9929050dd1c216d2bb701aefbe2686d8ca2b5f6ba8e16afea528e2cbd7e73f47a2139486daeb5aa165f11992d12#npm:1.5.0"],\
           ["@remix-run/react", null],\
           ["@sveltejs/kit", null],\
           ["@types/next", null],\
