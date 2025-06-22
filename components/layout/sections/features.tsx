@@ -51,8 +51,7 @@ export const FeaturesSection= () => {
        What Sets Us Apart?
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+       Develop and Improve Your Writing Craft through consistent practice, insightful feedback, and shared knowledge.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
