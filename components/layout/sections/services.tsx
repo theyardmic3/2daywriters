@@ -1,79 +1,69 @@
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Icon } from "@/components/ui/icon";
+import { icons } from "lucide-react";
+import { MdBook, MdPrint } from "react-icons/md"; // Importing Material Design icons
+import { GiPaintBrush } from "react-icons/gi"; // Importing Game Icons for Paint Brush
 
-enum ProService {
-  YES = 1,
-  NO = 0,
-}
-interface ServiceProps {
+interface ServicesProps {
+  icon: string;
   title: string;
-  pro: ProService;
   description: string;
 }
-const serviceList: ServiceProps[] = [
+
+const serviceList: ServicesProps[] = [
   {
-    title: "Custom Domain Integration",
+    icon: "Book",
+    title: "Professional Publishing",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
-    pro: 0,
+      "Comprehensive publishing services that ensure your vision is fully realized throughout every project.",
   },
   {
-    title: "Social Media Integrations",
+    icon: "Printer",
+    title: "Printing Press",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
+      "High-quality, precision-driven printing that brings your work to life, utilizing durable, professional materials that enhance the visual appeal of your content.",
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
+    icon: "Brush",
+    title: "Book Design",
+    description:
+      "Expert design services that create visually captivating and engaging book layouts, covers, and illustrations tailored to meet your specific needs and target audience.",
   },
 ];
 
-export const ServicesSection = () => {
+export const ServicesSection= () => {
   return (
-    <section id="services" className="container py-24 sm:py-32">
+    <section id="Services" className="container w-[100%] mt-6 py-24 my-6 -mb-32 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Services
+        What We Do
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+      <h2 className="text-3xl md:text-4xl text-center font-bold mb-6">
+        Our Services
       </h2>
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
-      </h3>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
-        {serviceList.map(({ title, description, pro }) => (
-          <Card
-            key={title}
-            className="bg-muted/60 dark:bg-card h-full relative"
-          >
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </CardHeader>
-            <Badge
-              data-pro={ProService.YES === pro}
-              variant="secondary"
-              className="absolute -top-2 -right-3 data-[pro=false]:hidden"
-            >
-              PRO
-            </Badge>
-          </Card>
+      <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+        {serviceList.map(({ icon, title, description }) => (
+          <div key={title}>
+            <Card className="h-full bg-background border border-orange-600 rounded-lg shadow-none transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50"> {/* Added hover effects */}
+              <CardHeader className="flex justify-center items-center">
+                <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
+                  <Icon
+                    name={icon as keyof typeof icons}
+                    size={24}
+                    color="hsl(var(--primary))"
+                    className="text-primary"
+                  />
+                </div>
+
+                <CardTitle>{title}</CardTitle>
+              </CardHeader>
+
+              <CardContent className="text-muted-foreground text-center">
+                {description}
+              </CardContent>
+            </Card>
+          </div>
         ))}
       </div>
     </section>

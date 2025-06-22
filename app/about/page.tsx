@@ -8,7 +8,8 @@ import { AboutHero } from "@/components/layout/sections/AboutHero";
 import { GeneralCatalog } from "@/components/layout/sections/GeneralCatalog"; // Import the Catalog component
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 import {BookCarousel} from "@/components/layout/sections/BookCarousel";
-import { FeaturesSection } from "@/components/layout/sections/features";
+import { ServicesSection} from "@/components/layout/sections/services";
+import { FeaturesSection} from "@/components/layout/sections/features";
 
 export const metadata = {
   title: "2day Writers",
@@ -44,8 +45,8 @@ export default function Home() {
       <AboutHero />
 
      <BookCarousel />
-      <FeaturesSection />
-
+      <ServicesSection/>
+      <FeaturesSection/>
       <GeneralCatalog />
       <ContactSection />
     </>

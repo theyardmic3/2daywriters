@@ -42,16 +42,13 @@ export const BookCarousel: React.FC = () => {
       className="
     relative flex justify-center items-center min-h-screen
     mt-[-12rem] mb-[-14rem]    
-    largePhone:mb-[-12rem] largePhone:mt-[-10rem]    /* Default for mobile */
-    largeTablet:mt-[-10rem] largeTablet:mb-[-12rem]
+    w-full
   "
     >
-
       <Carousel
         plugins={[autoPlayPlugin]} // Use the autoplay plugin
         className="
-          w-[75%] smallPhone:w-[75%] mediumPhone:w-[75%] largePhone:w-[75%]
-          smallTablet:w-[75%] largeTablet:w-[75%] laptop:w-[90%] desktop:w-[90%] hdr:w-[90%] ultraWide:w-[90%]
+          w-[75%]   mt-32 mb-36 desktop:w-[100%] largeTablet:w-[90%]
         "
         onMouseEnter={autoPlayPlugin.stop}
         opts={{
@@ -61,7 +58,10 @@ export const BookCarousel: React.FC = () => {
       >
         <CarouselContent className="carousel-track">
           {imagePaths.map((src, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 pl-4">
+            <CarouselItem
+              key={index}
+              className="md:basis-1/2 lg:basis-1/3 pl-4"
+            >
               <div className="p-1 flex aspect-rectangle items-center justify-center">
                 <Image
                   src={src}

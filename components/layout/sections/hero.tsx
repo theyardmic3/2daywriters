@@ -31,9 +31,9 @@ export const HeroSection = () => {
           <div className="max-w-screen-md mx-auto text-center smallPhone:text-2xl mediumPhone:text-3xl largePhone:text-4xl largeTablet:text-5xl laptop:text-6xl desktop:text-7xl ultrawide:text-8xl font-bold">
             <h1>
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                2day 
+                2day  Writing™
               </span>
-              Writing™
+             
             </h1>
           </div>
 
